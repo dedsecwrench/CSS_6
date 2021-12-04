@@ -1,0 +1,393 @@
+body{
+    background-image: url(https://wallpaperaccess.com/full/481052.jpg);
+    background-size: cover;
+    height :100%;
+    padding: 2px; 
+} 
+
+.container_3{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.top{
+    width:90%;
+}
+
+.navbar{
+    position: relative;
+    top:0;
+}
+
+.container_1{
+    width:100%;
+    padding:20px;
+    padding-right: 80px;
+    border-radius: 20px;
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    column-gap:40px;
+}
+
+.navigation{
+    position:relative;
+    left:100px;
+    height:1px;
+    width:10%;
+    z-index:10;
+    
+}
+img{
+    height:50px;
+    width:50px;
+    filter:contrast(75%);
+    position:relative;
+    top:25px;
+}
+img:hover{
+    animation-name: icon;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    cursor: pointer;
+    filter:contrast(100%);
+    trasition:1s,1s;
+}
+
+@keyframes icon {
+
+    50%{
+        transform: scale(1,1);
+    }
+    50%{
+        transform: scale(1.3,1.3);
+    }
+    
+}
+
+
+.nav-link{
+    color: white;
+    font-size: 20px;
+    border-radius: 40px;
+}
+.nav-link:hover{
+    background-color: #fff;
+    color: rgb(99, 99, 99);
+    border-radius: 40px;
+    transition:1s,1s;
+}
+/* three line icon button */
+.nav-icon{
+    height:50px;
+    width:50px;
+    transition: all .5s ease;
+    color: #fff;
+    text-align: center;
+    background-color : transparent;
+    padding: 10px;
+    outline: none;
+    border-radius: 50%;
+}
+.nav-icon:hover{
+    color: rgb(169, 169, 169);
+    background-color: #fff;
+}
+.three{
+    position: relative;
+    bottom:2px;
+}
+
+.sec_1{
+    width:50%;
+    height:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 10px;
+}
+
+.sec_2{
+    height:100%;
+    width:50%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 35px;
+    
+}
+
+.container_2{
+    width:100%;
+    height:100%;
+    padding:10px;
+    border-radius: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sahara{
+    font-family: serif;
+    color:white;
+    width: 100%;
+    font-size: 120px;
+    padding-left: 38px;
+    padding-top: 80px;
+}
+
+.sahara_text{
+    font-family: serif;
+    color:white;
+    width:100%;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+.exp{
+    width: 100%;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.exp_btn{
+    border-radius: 40px;
+    border: 1px solid white;
+    height:50px;
+    width:220px;
+    background-color: transparent;
+    color: white;
+}
+
+.exp_btn:hover{
+    background-color: white;
+    color: black;
+    transition: 1s,1s;
+}
+
+
+.cards{
+    height:260px;
+    width:260px;
+    border-radius: 15px;
+    padding:15px;
+    font-weight: bold;
+    font-family: serif;
+    color:white;
+}
+
+.cards:hover{
+    transform: translateY(-10px);
+    transition: 1s,1s;
+    cursor: pointer;
+}
+
+p{
+    position: relative;
+    top:130px;
+}
+
+.img_1{
+    background-image: url(https://cdn.mos.cms.futurecdn.net/deaceNXy23NF8VsCrwZPgn-1024-80.jpg.webp);
+    background-size: cover;
+    filter: contrast(65%);
+}
+
+.img_1:hover{
+    filter: contrast(100%);
+    transition:1s,1s;
+}
+
+.img_2{
+    background-image: url(http://1.bp.blogspot.com/-7J4nq8trJvA/Um2BPMLgGSI/AAAAAAAAAao/nly-UQAGyuo/s1600/Deserts+rock+mountain+wallpapers.jpeg);
+    background-size: cover;
+    filter: contrast(65%);
+}
+
+.img_2:hover{
+    filter: contrast(100%);
+    transition:1s,1s;
+}
+
+.img_3{
+    background-image: url(https://www.planetware.com/photos-large/EGY/egypt-cairo-pyramids-of-giza-and%20camels-2.jpg);
+    background-size: cover;
+    filter: contrast(65%);
+}
+
+.img_3:hover{
+    filter: contrast(100%);
+    transition:1s,1s;
+}
+
+.img_4{
+    background-image: url(https://images.unsplash.com/photo-1489493173507-6feea31f12ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8a2FsYWhhcmklMjBkZXNlcnR8ZW58MHx8MHx8&w=1000&q=80);
+    background-size: cover;
+    filter: contrast(65%);
+}
+
+.img_4:hover{
+    filter: contrast(100%);
+    transition:1s,1s;
+}
+/* ---------------------------------------- MOBILE RESPONSIVE ------------------------------------ */
+/* ----------------------------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 200px) and  (max-width: 800px) {
+
+    body{
+        margin:0;
+        padding: 10; 
+    } 
+    
+    .navbar{
+        width:100%;
+    }
+    .container_3{
+        width: 100%;
+    }
+    .container_1{
+        width:90%;
+        text-align: right;
+        flex-direction: row;
+    }
+    
+    .navigation{
+        height:30px;
+        width:10%;
+    }
+
+    .top{
+        width:90%;
+    }
+
+    img{
+        height:40px;
+        width:40px;
+        filter:contrast(75%);
+        position:relative;
+        right:80px;
+        top:30px;
+    }
+    
+    
+    .nav-item{
+       width:100%;
+    }
+    .nav-link{
+        color: white;
+        font-size: 20px;
+    }
+    .nav-link:hover{
+        color: white;
+       
+    }
+    /* three line icon button */
+    .nav-icon{
+       visibility: collapse;
+    }
+    .three{
+        visibility: collapse;
+    }
+    
+    .sec_1{
+        width:100%;
+        row-gap: 10px;
+    }
+    
+    .sec_2{
+        width:100%;
+        
+    }
+    
+    .container_2{
+        width:100%;
+        height:100%;
+        row-gap: 20px;
+    }
+    
+    .sahara{
+        width: 100%;
+        font-size: 60px;
+    }
+    
+    .sahara_text{
+        width:100%;
+        font-size: 15px;
+    }
+    
+    .exp{
+        width: 100%;
+        padding-top: 15px;
+    }
+    
+    .exp_btn{
+        height:50px;
+        width:180px;
+       
+
+    }
+    
+    .cards{
+        height:260px;
+        width:100%;
+    }
+    
+
+
+
+
+
+
+/*------------------------------------------------------*/    
+}    
+
+
+
+@media only screen and (min-width: 200px) and  (max-width: 400px) {
+
+    body{
+        background-image: url(https://wallpaperbat.com/img/421223-desert-scenery-wallpaper-wallpaper-scenery.jpg);
+        background-size: cover;
+    }
+
+}    
+
+
+@media only screen and (min-width: 400px) and  (max-width: 700px) {
+
+    body{
+        background-image: url(https://images.unsplash.com/photo-1557187669-75025b5aa07e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8&w=1000&q=80);
+        background-size: cover;
+    }
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
